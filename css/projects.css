@@ -75,7 +75,7 @@ p {
     margin: 0 0 1.5em;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 
 .lightbox-target {
