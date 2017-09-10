@@ -6,7 +6,7 @@ a {
 }
 
 a:hover { 
-    color: #CAEBF2;
+    color: #F5F5F5;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
 }
 
 body{
-	background: #ffffff;
+	background: #F5F5F5;
 }
 
 h1 {
@@ -39,18 +39,19 @@ p {
 	text-align: center;
 }
 
-#homemessage {
+#welcome {
 	position: absolute;
-	top: 20%;
+	top: 85%;
 	right: 15%;
-	width: 70%;
+	width: 70%;	
+	font-family: Geneva;
 }
 
 #logo {
 	position: absolute;
-	top: 2%;
-	right: 90%;
-	width: 3%;
+	top: 20%;
+	right: 40%;
+	width: 20%;
 }
 
 #intro {

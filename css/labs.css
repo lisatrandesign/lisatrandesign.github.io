@@ -6,7 +6,7 @@ a {
 }
 
 a:hover { 
-    color: #CAEBF2;
+    color: #F5F5F5;
 }
 
 header {
@@ -20,4 +20,8 @@ header {
 	top: 2%;
 	right: 90%;
 	width: 3%;
+}
+
+body {
+	background: #F5F5F5;
 }
