@@ -1,14 +1,13 @@
 a {
-	color: black;
+	color: #373737;
 	text-decoration: none;
 	list-style-type: none;
-	font-family: Helvetica
+	font-family: Geneva;
 }
 
 a:hover { 
-    color: #DCDCDC;
+    color: #CAEBF2;
 }
-
 
 header {
 	text-align: center;
@@ -18,7 +17,6 @@ header {
 
 body{
 	background: #ffffff;
-	text-align: center;
 }
 
 h1 {
@@ -37,23 +35,9 @@ p {
 	font-size: 15px;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: .5em;
-  background-color: #f9f9f9;
-  text-align: center;
-  font-family: Helvetica;
-}
-
-
-
 #head1{
 	text-align: center;
 }
-
 
 #homemessage {
 	position: absolute;
@@ -62,11 +46,11 @@ p {
 	width: 70%;
 }
 
-#ltlogo {
+#logo {
 	position: absolute;
 	top: 2%;
 	right: 90%;
-	width: 2%;
+	width: 3%;
 }
 
 #intro {
@@ -77,3 +61,5 @@ p {
 	text-align: center;
 	font-family: Helvetica;
 }
+
+font-family: 'Open Sans', sans-serif;
