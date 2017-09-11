@@ -2,11 +2,10 @@ a {
 	color: #373737;
 	text-decoration: none;
 	list-style-type: none;
-	font-family: Geneva;
 }
 
 a:hover { 
-    color: #F5F5F5;
+    color: #CAEBF2;
 }
 
 header {
@@ -18,6 +17,8 @@ header {
 body{
 	background: #F5F5F5;
 	text-align: center; 
+	font-family: 'Open Sans';
+	font-size: 22px;
 }
 
 h1 {
@@ -28,14 +29,12 @@ h1 {
 
 li {
 	list-style-type: none;
-	font-family: Helvetica;
 	position: absolute;	
 }
 
 p {
 	text-align: center;
 	font-size: 15px;
-	font-family: Helvetica;
 }
 
 #head1{
@@ -47,7 +46,6 @@ p {
 	top: 85%;
 	right: 15%;
 	width: 70%;	
-	font-family: Geneva;
 }
 
 #logo {
@@ -70,7 +68,6 @@ p {
 	right: 15%;
 	width: 70%;
 	text-align: center;
-	font-family: Helvetica;
 }
 
 .wrapper {
