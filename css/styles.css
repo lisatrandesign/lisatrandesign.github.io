@@ -97,3 +97,9 @@ img{
     box-sizing: border-box;
     border-radius: 3px;
 }
+
+.title {
+	top: 80%;
+	right: 15%;
+	width: 70%;
+}	
