@@ -99,7 +99,5 @@ img{
 }
 
 .title {
-	top: 80%;
-	right: 15%;
-	width: 70%;
+	text-align: left;
 }	
