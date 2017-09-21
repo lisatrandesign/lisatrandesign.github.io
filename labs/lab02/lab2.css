@@ -1,0 +1,52 @@
+h1 {
+ font-family: Helvetica;
+}
+
+dl { 
+ width: 50%;
+ margin: auto;
+ 
+ / cosmetics /
+ 
+ font-family: Muli;
+ text-align: justify;
+ overflow: auto;
+ padding-top: 20px;
+
+}
+
+dt {
+ width: auto;
+
+ font-family: Helvetica;
+ font-weight: bold;
+ text-align: left;
+}
+
+.dtright{
+	text-align: right;
+	
+}
+
+dd {
+ font-family: Helvetica;
+ padding: 10px;
+ margin-left: 0px;
+}
+  
+dd.dlimg {
+ float: left;
+ width: auto;
+
+}
+
+dd img{
+ width: 100%;
+}
+
+.dlimg2 img {
+ float: right;
+ width: auto;
+    height: auto;
+  padding-left: 10px;
+}
