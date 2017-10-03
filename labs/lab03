@@ -48,19 +48,19 @@ li {
 
 
 	<ul id="nav">
-<li><a href="lab03.html">Korean Food</a></li>
-<li><a href="lab03-2.html">Japanese Food</a></li>
-<li><a href="lab03-3.html">Vietnamese Food</a></li>
+<li><a href="lab03/lab03.html">Korean Food</a></li>
+<li><a href="lab03/lab03-2.html">Japanese Food</a></li>
+<li><a href="lab03/lab03-3.html">Vietnamese Food</a></li>
 </ul>
 
 
 	<ul id="gallery">
-<img src="koreanfood/korean1.jpg" alt= "Gimpap">
-<img src="koreanfood/korean2.jpg" alt= "Mandu">
-<img src="koreanfood/korean3.jpg" alt= "Bibimbap">
-<img src="koreanfood/korean4.jpg" alt= "Side Dishes">
-<img src="koreanfood/korean5.jpg" alt= "Nangmyun">
-<img src="koreanfood/korean6.jpg" alt= "Kimchi Fried Rice">
+<img src="images/labs/korean1.jpg" alt= "Gimpap">
+<img src="images/labs/korean2.jpg" alt= "Mandu">
+<img src="images/labs/korean3.jpg" alt= "Bibimbap">
+<img src="images/labs/korean4.jpg" alt= "Side Dishes">
+<img src="images/labs/korean5.jpg" alt= "Nangmyun">
+<img src="images/labs/korean6.jpg" alt= "Kimchi Fried Rice">
 </ul>
 
 
