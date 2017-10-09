@@ -1,0 +1,112 @@
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(http://themes.googleusercontent.com/static/fonts/muli/v4/TgrecWq39GVsTOFonFwGXQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+* {
+	margin: 0;
+	padding: 5px;
+}
+
+li {
+	list-style-type: none;
+	
+}
+
+/* page layout */
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	/* getting seven columns will be harder;  consider using the fr unit instead of % */
+
+	/* cosmetics */
+	padding: 1em;
+	font-family: Muli;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-row:1;
+	grid-column: 1/8;
+
+}
+
+header h1{
+	font-size: 24px;
+	grid-row: 1;
+	grid-column: 1/2;
+	padding: 15px;
+}
+
+#sn{
+	display: grid;
+	grid-template-columns: 50% 50%; 
+}
+
+header h1 span{
+	font-size: 16px;
+		grid-row: 1;
+}
+
+#gallery {
+	grid-column: 2/4;	
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-row: 2;
+}
+
+
+nav{
+	display: grid;
+	grid-template-columns: 80% 20%; 
+	
+}
+
+nav #nav{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-column: 1;
+}
+
+
+nav #sn{
+	grid-column: 2;
+}
+
+nav #nav li{
+	padding: 10px 30px;
+}
+
+
+img {
+	width: 100%;
+	
+}
+
+
+aside img{
+	height: 100%;
+	object-fit: cover;
+}
+
+
+aside{
+	grid-column: 1/2;	
+	grid-row: 2;
+}
+
+footer{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-row: 3;
+	grid-column: 1/6;
+}
+
+
+
+	</style>
