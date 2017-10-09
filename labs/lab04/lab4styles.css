@@ -82,6 +82,10 @@ nav #nav li{
 	padding: 10px 30px;
 }
 
+a:link{
+  text-decoration:  none; 
+}
+
 
 img {
 	width: 100%;
