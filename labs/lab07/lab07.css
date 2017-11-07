@@ -1,4 +1,3 @@
-
 body{
 	overflow-x: hidden !important;
 	background: url('bg.png');
@@ -21,7 +20,7 @@ body{
 }
 
 .wrapper{
-	position: absolute;
+	position: fixed;
 	top: 0; 
 	left: 0;
 	width: 100%;
