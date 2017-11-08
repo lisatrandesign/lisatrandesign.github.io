@@ -30,7 +30,7 @@ body{
 	z-index:-1;
 }
 
-/* White gradient works in Chrome, shows up blue in Safari */
+/* White gradient */
 .centertext { 
 	background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 60%, rgba(0,128,128,0) 100%); /* ff3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(60%, rgba(255,255,255,1)), color-stop(100%, rgba(0,128,128,0))); /* safari4+,chrome */
