@@ -27,6 +27,7 @@ body{
 	height: 100%;
 	box-sizing: border-box;
 	border: 25px solid #ffffff;
+	z-index:-1;
 }
 
 /* White gradient works in Chrome, shows up blue in Safari */
