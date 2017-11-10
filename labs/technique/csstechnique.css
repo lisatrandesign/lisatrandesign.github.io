@@ -1,5 +1,5 @@
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #DDA6AE;
     color: white;
     padding: 13px;
     font-size: 15px;
@@ -34,7 +34,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #B76E78;
 }
 
  #navbar ul { 
@@ -54,7 +54,7 @@
 	padding: .2em 1.5em .7em; 
 	padding-top: .8em;
 	color: #fff; 
-	background-color: #4CAF50; 
+	background-color: #DDA6AE; 
 	} 
  
 #navbar ul li a:hover { 
