@@ -10,8 +10,10 @@
 
 <body>
 
-<header>
-	<img src="images/sidneycinema.png" id="logo" alt="Sidney's Star Cinemas" />
+<div id="pagediv">
+
+	<header>
+			<img src="images/sidneycinema.png" id="logo" alt="Sidney's Star Cinemas" />
 
 	<ul id="nav">
 		<li><a href="#playing">Now playing</a></li>
@@ -28,10 +30,10 @@
 		<img src="images/fb.jpg" id="face" alt="Facebook" />
 		<img src="images/twitter.jpg" id="bird" alt="Twitter" />
 		</div>
-	
-</header>
-
-<div id="playing">
+	</header>
+		
+	<section id="columnleft">
+		  <div id="playing">
 <h2>Now Playing:  Nov 3-9</h2>
 <ul>
 <li>
@@ -133,12 +135,13 @@
 </li>
 
 </ul>
-</div> <!-- ends #playing -->
-
-
-<div id="soon">
+</div>
+	</section>
+	
+	<section id="columnmiddle">
+		<div id="soon">
 	<h2>Coming Soon</h2>
-	<p> If you want to see it come to Star Cinema, let us know!  <span style="text-decoration: underline">info@starcinema.ca</span> </p>
+	<p id="soontext"> If you want to see it come to Star Cinema, let us know!  <span style="text-decoration: underline">info@starcinema.ca</span> </p>
 
 	<ul>
 		<li><img alt="" src="images/c_asesinato.jpg"/> Nov 10</li>
@@ -152,36 +155,34 @@
 		<li><img alt="" src="images/c_wonder.jpg"/> TBA</li>
 	</ul>
 </div>
+	</section>
 
-
-<div id="info">
+	<section id="columnright">
+		<div id="prices">
 	<h2>Prices</h2>
 
 	<p> We accept cash or debit </p>
 	<dl>
-		<dt>Adult - $9.00</dt>
-		<dt>Senior - $7.50</dt>
-		<dt>Students - $7.50</dt>
-		<dt>Child - $6.00</dt>
-		<dt>Star Tuesdays - $6.00 for everyone</dt>
-	<dd></dd></dl>
+		<dt>Adult</dt>
+			<dd>$9.00</dd>
+		<dt>Senior</dt>
+			<dd>$7.50</dd>
+		<dt>Students</dt>
+			<dd>$7.50</dd>
+		<dt>Child</dt>
+			<dd>$6.00</dd>
+		<dt>Star Tuesdays </dt>
+			<dd>$6.00 for everyone</dd>
+	</dl>
 </div>
 
+	</section>
 
-<div id="prices">
-<ul>
-	<li>Address: 9842 Third Street, Sidney, BC V8L 3A7</li>
-	<li>Office Line: 250-655-3384</li>
-	<li>Info Line: 250-655-1171  </li>
-	<li>info@starcinema.ca</li>
-</ul>
+	<footer>
+		<p> We sell gift certificates <img alt="tickets for students, seniors, children, and adults" src="images/gifts.jpg" /> </p>
+		<p> We can book Birthday Parties! <img alt="Happy Birthday" src="images/happy.gif" /> </p>
+	</footer>
 
-</div>
-
-
-<div class="footer">
-<p> We sell gift certificates <img alt="tickets for students, seniors, children, and adults" src="images/gifts.jpg" /> </p>
-<p> We can book Birthday Parties! <img alt="Happy Birthday" src="images/happy.gif" /> </p>
 </div>
 
 

@@ -1,9 +1,11 @@
-/* -------------------------------
-   applies to all screen widths
-   ------------------------------- */
-
+/* General */
+body {
+	font-family: sans-serif;
+	font-size: 1.1em;
+	margin: 0.5em auto;
+	min-width: 90%;
+}
 #logo {
-	min-width: 35%;
 	max-width: 45%;
 	height: auto;
 }
@@ -14,65 +16,138 @@
 	height: auto;
 }
 
-body {
-	font-family: "Lato", sans-serif;
-	background-color: #FFF;
-	color: #000;
-	font-size: 1.2em;
-	line-height: 1.4em;
-	
-	width: 90%;
-	margin: 0.5em auto 1em;
-}
-	
-ul {
-	padding: 0;
+#pagediv {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
 }
 
-li {
+#button img {
+	min-width: 20%;
+	max-width: 20%;
+	height: auto;
+}
+#nav{
+		display: none;	/* Hide navbar for larger resolutions */
+	}
+header {
+	padding: 10px;
+}
+
+#columnleft {
+	width: 40%;
 	float: left;
-	width: 98%;
-	padding: 1%;
-	
-	list-style-type: none;
-	border-top: 2px solid #A0A;
+	padding: 10px;
+}
+#columnmiddle {
+	width: 25%;
+	float: left;
+	padding: 10px;
+	margin: 0;
 }
 
-img {
-	display: block;
-	min-width: 25%;
-	max-width: 35%;
+#columnright {
+	width:25%;
+	padding: 5px 15px;
+	float: left;
+}
+footer {
+	clear: both;
+	padding: 15px;
+	border-top: solid 2px;
+}
+
+
+/* Responsiveness */
+
+/* Large */
+@media screen and (max-width: 1600px) {
+	
+	#pagediv {
+		width: 94%;
+	}
+	#columnleft {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#columnmiddle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
 	}
 	
-#prices li{
-		border: 0px;
-		font-weight: bold;
-}
+	#columnright {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
 
-#prices{
-	border-top: 2px solid #A0A;
-	border-bottom: 2px solid #A0A;
-	display:table;
-}
-
-dt {
-	text-decoration: underline;
-}
-
-.footer{
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-
-	body {
-		color: red;
+	header, footer {
+		padding: 1% 4%;
+	}
+		img{
+		width:50%;
+	}
+	#nav{
+		display: block;
 	}
 }
+
+/* Medium */
+@media screen and (max-width: 800px) {
+
+	#columnleft {
+		width: auto;
+		float: none;
+	}
+	
+	#columnmiddle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#columnright {
+		width: auto;
+		float: none;
+	}
+	img{
+		width:50%;
+	}
+	#nav{
+		display: block; 	/* Display navbar */
+	}
+	#soontext{
+		color: #ffffff;	/* Hide Coming Soon Text */
+	}
+
+}
+
+/* Small */
+@media screen and (max-width: 300px) {
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#columnright {
+		display: in-line; 
+	}
+	img{
+		width:50%;
+	}
+		#nav{
+		display: block; 	/* Display navbar */
+	}
+		#soontext{
+		color: #ffffff; 	/* Hide Coming Soon Text */
+	}
+}
+
+
+
+
+
