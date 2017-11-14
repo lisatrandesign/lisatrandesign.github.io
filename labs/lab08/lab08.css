@@ -151,7 +151,7 @@ footer {
 	
 }
 
-/* Additional */
+/* WHen in Landscape Mode */
 
 @media all and (orientation:portrait) {
 	body {
