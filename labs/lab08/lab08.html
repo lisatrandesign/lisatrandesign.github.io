@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Lab 08 Standard</title> 
+	<title>Lab 08 Standard and Advanced</title> 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="lab08.css" />
@@ -11,7 +11,7 @@
 <body>
 
 <header>
-	<img src="starcinema.png" alt="Sidney's Star Cinema">
+	<img src="images/sidneycinema.png" id="logo" alt="Sidney's Star Cinemas" />
 
 	<ul id="nav">
 		<li><a href="#playing">Now playing</a></li>
@@ -23,9 +23,11 @@
 
 	<p> Stay updated on all our upcoming films & special events! </p>
 	
-	<img alt="" src="images/signup.gif" />
-	<img alt="" src="images/fb.jpg" />
-	<img alt="" src="images/twitter.jpg" />
+		<div id="button">
+		<img src="images/signup.gif" id="sign" alt="Sign Up" />
+		<img src="images/fb.jpg" id="face" alt="Facebook" />
+		<img src="images/twitter.jpg" id="bird" alt="Twitter" />
+		</div>
 	
 </header>
 
@@ -39,11 +41,11 @@
 
 	<dl>
 		<dt>FRI SAT</dt>
-			<dd>7:15</dd>
+		<dd>7:15</dd>
 		<dt>MON TUE</dt>
-			<dd>7:15</dd>
+		<dd>7:15</dd>
 		<dt>SAT SUN</dt>
-			<dd>2:00</dd>
+		<dd>2:00</dd>
 	</dl>
 
 	<h4>Synopsis</h4>
@@ -57,11 +59,11 @@
 
 	<dl>
 		<dt>FRI SAT</dt>
-			<dd>9:10</dd>
+		<dd>9:10</dd>
 		<dt>SUN MON TUE</dt>
-			<dd>7:00</dd>
+		<dd>7:00</dd>
 		<dt>TUE</dt>
-			<dd>2:00</dd>
+		<dd>2:00</dd>
 	</dl>
 
 	<h4>Synopsis</h4>
@@ -74,11 +76,11 @@
 	<h4>Showtimes</h4>
 	<dl>
 		<dt>FRI SAT</dt>
-			<dd>7:00</dd>
+		<dd>7:00</dd>
 		<dt>SUN</dt>
-			<dd>7:15</dd>
+		<dd>7:15</dd>
 		<dt>WED THU</dt>
-			<dd>2:00</dd>
+		<dd>2:00</dd>
 	</dl>
 	<h4>Synopsis</h4>
 
@@ -91,11 +93,11 @@
 	<h4>Showtimes</h4>
 	<dl>
 		<dt>FRI SAT</dt>
-			<dd>9:20</dd>
+		<dd>9:20</dd>
 		<dt>WED THU</dt>
-			<dd>7:15</dd>
+		<dd>7:15</dd>
 		<dt>WED THU</dt>
-			<dd>2:15</dd>
+		<dd>2:15</dd>
 	</dl>
 	<h4>Synopsis</h4>
 
@@ -108,9 +110,9 @@
 	<h4>Showtimes</h4>
 	<dl>
 		<dt>WED THU</dt>
-			<dd>7:00</dd>
+		<dd>7:00</dd>
 		<dt>TUE</dt>
-			<dd>2:15</dd>
+		<dd>2:15</dd>
 	</dl>
 	<h4>Synopsis</h4>
 
@@ -123,7 +125,7 @@
 	<h4>Showtimes</h4>
 	<dl>
 		<dt>SAT SUN</dt>
-			<dd>2:15</dd>
+		<dd>2:15</dd>
 	</dl>
 	<h4>Synopsis</h4>
 
@@ -152,39 +154,35 @@
 </div>
 
 
-<div id="prices">
+<div id="info">
 	<h2>Prices</h2>
 
 	<p> We accept cash or debit </p>
 	<dl>
-		<dt>Adult</dt>
-			<dd>$9.00</dd>
-		<dt>Senior</dt>
-			<dd>$7.50</dd>
-		<dt>Students</dt>
-			<dd>$7.50</dd>
-		<dt>Child</dt>
-			<dd>$6.00</dd>
-		<dt>Star Tuesdays </dt>
-			<dd>$6.00 for everyone</dd>
+		<dt>Adult - $9.00</dt>
+		<dt>Senior - $7.50</dt>
+		<dt>Students - $7.50</dt>
+		<dt>Child - $6.00</dt>
+		<dt>Star Tuesdays - $6.00 for everyone</dt>
 	</dl>
 </div>
 
-<footer>
+
+<div id="prices">
 <ul>
-	<li>9842 Third Street   </li>
-	<li>Sidney, BC V8L 3A7</li>
-	<li>Office Line:</li>
-	<li>250-655-3384</li>
-	<li>Info Line:</li>
-	<li>250-655-1171  </li>
+	<li>Address: 9842 Third Street, Sidney, BC V8L 3A7</li>
+	<li>Office Line: 250-655-3384</li>
+	<li>Info Line: 250-655-1171  </li>
 	<li>info@starcinema.ca</li>
 </ul>
 
-<p> We sell gift certificates <img alt="tickets for students, seniors, children, and adults" src="images/gifts.jpg" /> </p>
+</div>
 
+
+<div class="footer">
+<p> We sell gift certificates <img alt="tickets for students, seniors, children, and adults" src="images/gifts.jpg" /> </p>
 <p> We can book Birthday Parties! <img alt="Happy Birthday" src="images/happy.gif" /> </p>
-</footer>
+</div>
 
 
 </body>

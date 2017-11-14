@@ -1,3 +1,19 @@
+/* -------------------------------
+   applies to all screen widths
+   ------------------------------- */
+
+#logo {
+	min-width: 35%;
+	max-width: 45%;
+	height: auto;
+}
+
+#button img {
+	min-width: 20%;
+	max-width: 30%;
+	height: auto;
+}
+
 body {
 	font-family: "Lato", sans-serif;
 	background-color: #FFF;
@@ -20,4 +36,44 @@ li {
 	
 	list-style-type: none;
 	border-top: 2px solid #A0A;
+}
+
+img {
+	display: block;
+	min-width: 25%;
+	max-width: 35%;
+	}
+	
+#prices li{
+		border: 0px;
+		font-weight: bold;
+}
+
+#prices{
+	border-top: 2px solid #A0A;
+	border-bottom: 2px solid #A0A;
+	display:table;
+}
+
+dt {
+	text-decoration: underline;
+}
+
+.footer{
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+	body {
+		color: red;
+	}
 }
