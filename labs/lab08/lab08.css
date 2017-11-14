@@ -93,6 +93,7 @@ footer {
 	#nav{
 		display: block;
 	}
+	
 }
 
 /* Medium */
@@ -142,6 +143,7 @@ footer {
 	img{
 		width:50%;
 	}
+	
 		#nav{
 		display: block; 	/* Display navbar */
 	}
@@ -149,12 +151,15 @@ footer {
 		color: #ffffff; 	/* Hide Coming Soon Text */
 	}
 	
-	html { background: #F9B5AC; }
-	}
-
 }
 
+/* Additional */
 
+@media all and (orientation:portrait) {
+	body {
+		background-color: #EBDCCB;
+			}
+		}
 
 
 
