@@ -127,8 +127,6 @@ footer {
 	 html { background: #C9CAD9; }
 	}
 
-}
-
 /* Small */
 @media screen and (max-width: 300px) {
 	header {
@@ -138,7 +136,7 @@ footer {
 		font-size: 2em;
 	}
 	#columnright {
-		display: in-line; 
+		display: inline; 
 	}
 	img{
 		width:50%;
@@ -153,7 +151,7 @@ footer {
 	
 }
 
-/* When in landscape */
+/* Additional */
 
 @media all and (orientation:portrait) {
 	body {
