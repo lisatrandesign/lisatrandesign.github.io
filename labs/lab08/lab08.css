@@ -122,6 +122,9 @@ footer {
 	#soontext{
 		color: #ffffff;	/* Hide Coming Soon Text */
 	}
+	
+	 html { background: #C9CAD9; }
+	}
 
 }
 
@@ -145,6 +148,10 @@ footer {
 		#soontext{
 		color: #ffffff; 	/* Hide Coming Soon Text */
 	}
+	
+	html { background: #F9B5AC; }
+	}
+
 }
 
 
