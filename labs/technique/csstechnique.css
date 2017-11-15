@@ -1,65 +1,62 @@
+h2 {
+	font-family: Helvetica;
+}
+
+/* Navigation bar settings */
+#navbar{
+    padding: 10px;
+	text-align: center; 
+	background-color: #000;
+}
+
+/* Link button Styles */
+#navbar a { 		
+	font-size: 14px;
+	font-family: sans-serif;
+	background-color: #DDA6AE; 	/* Color of link buttons */
+	color: #fff; 								/* Color of text */
+    padding: 11px;
+	text-decoration: none; 
+	} 
+ 
+#navbar a:hover { 
+	background-color: #B76E78;		/* Color of hover background */
+} 
+
+
+/* Dropdown button Styles */
 .dropbtn {
-    background-color: #DDA6AE;
-    color: white;
-    padding: 13px;
-    font-size: 15px;
+	font-size: 14px;
+	font-family: sans-serif;
+    background-color: #DDA6AE;		/*Color of dropdown button */
+	color: #fff; 								/* Color of text */
+    padding: 11px;
     border: none;
     cursor: pointer;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.dropdown:hover .dropbtn {
+    background-color: #B76E78;		/* Color of hover background */
 }
 
 .dropdown-content {
-    display: none;
+    display: none;							/* Keeps dropdown hidden until hover */
+    min-width: 160px;						/* Width of dropdown content */
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
 }
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #B76E78;
-}
-
- #navbar ul { 
-	margin: 0; 
-	padding: 5px; 
-	list-style-type: none; 
-	text-align: center; 
-	background-color: #000; 
-	} 
 	
-#navbar ul li {  
-	display: inline; 
-	} 
- 
-#navbar ul li a { 
-	text-decoration: none; 
-	padding: .2em 1.5em .7em; 
-	padding-top: .8em;
-	color: #fff; 
-	background-color: #DDA6AE; 
-	} 
- 
-#navbar ul li a:hover { 
-	} 
-	
+/* Formatting */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content a, .dropdown:hover .dropdown-content  {
+    display: block;							/* Dropdown content format */
+}
+
 h2 {
 	text-align: center;
 }
+
+
+
