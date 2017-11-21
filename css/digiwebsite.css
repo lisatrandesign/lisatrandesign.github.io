@@ -1,7 +1,8 @@
+
 /* WEBSITE */
 
 html {
-	font-family: 'Roboto'
+	font-family: 'Roboto', sans-serif;
 }
 
 /* SLOGAN */
@@ -10,10 +11,10 @@ html {
 	text-align: center;
 	border: 1px solid black;
 	padding: 3px;
-	position: absolute;
 	margin-top: 30px;
-	margin-left: 43em;
+	margin-left: 45.8em;
 	width: 200px;
+	margin: 0 auto;
 }
 
 #graphic p {
@@ -80,32 +81,59 @@ a:link {
 
 /* ABOUT ME */
 
-#me {
-	background-color: #EFEFEF;
-	padding: 200px;
+#about-container{
+	padding: 15px;
+		text-align: center;
+	margin: auto;
+
+}
+
+#about-container img{
+	padding: 10px;
+	width: 250px;
 	text-align: center;
+	margin: auto;
+	float:left;
+	overflow: none;
+
+
+}
+.img-circle{
+	padding: 20px;
 }
 
 #me p {
-	padding-left: 23em;
-	padding-right: 11em;
-	margin-left: 13em;
+
 	line-height: 30px;
 	text-align: left;
 	font-weight: 300;
+	min-width: 300px;
+	max-width: 800px;
+	min-height: 300px;
+	margin: auto ;
+	
 }
+
+
 
 #me h1 {
 	line-height: 15px;
 	font-weight: normal;
-	margin-left: 0em;
+
 
 }
-#hitmeup a {
+
+#contactme{
+	padding: 20px;
+}
+#contactme a{
 	color: black;
 	background-color: #FE5F55;
 	padding: 15px;
+
 }
+
+
 
 a {
 	text-decoration: none;
@@ -114,9 +142,7 @@ a {
 	
 .img-circle {
     border-radius: 50%;
-    position: absolute;
-    left: 23em;
-    top: 71em;
+
 }
 
 /* PROJECTS */
@@ -153,7 +179,7 @@ a {
     border-radius: 3px;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   display: block;
