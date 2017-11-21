@@ -81,8 +81,8 @@ a:link {
 /* ABOUT ME */
 
 #about-container{
-	padding: 15px;
-		text-align: center;
+	padding: 100px;
+	text-align: center;
 	margin: auto;
 
 }
@@ -121,7 +121,9 @@ a:link {
 
 #contactbox{
 	padding: 20px;
+	padding-bottom: 50px;
 }
+
 #contactbox a{
 	color: black;
 	background-color: #FE5F55;
