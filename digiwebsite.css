@@ -1,0 +1,249 @@
+/* WEBSITE */
+
+html {
+	font-family: 'Roboto'
+}
+
+/* SLOGAN */
+
+#graphic {
+	text-align: center;
+	border: 1px solid black;
+	padding: 3px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 45.8em;
+	width: 200px;
+}
+
+#graphic p {
+	font-weight: 300;
+	font-size: 15px;
+}
+	
+
+/* LOGO */
+
+#lt img {
+	display: block;
+    margin: auto;
+    height: 5%;
+    margin-top: 3em;
+} 
+
+/* HEADER */
+
+#header {
+	text-align: center;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#header li {
+    display: inline;
+}
+
+li {
+	padding: 55px;
+	font-weight: 700;
+}
+
+a:visited {
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+/* HOME PAGE */
+
+#intro {
+    /* The image used */
+    background-image: url("lorem.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ABOUT ME */
+
+#me {
+	background-color: #EFEFEF;
+	padding: 200px;
+	text-align: center;
+}
+
+#me p {
+	padding-left: 23em;
+	padding-right: 11em;
+	margin-left: 13em;
+	line-height: 30px;
+	text-align: left;
+	font-weight: 300;
+}
+
+#me h1 {
+	line-height: 15px;
+	font-weight: normal;
+	margin-left: 0em;
+
+}
+#hitmeup a {
+	color: black;
+	background-color: #FE5F55;
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+
+}
+	
+.img-circle {
+    border-radius: 50%;
+    position: absolute;
+    left: 23em;
+    top: 71em;
+}
+
+/* PROJECTS */
+
+#work h1 {
+	font-weight: normal;
+}
+
+#work {
+	background-color: #F7F7F7;
+	padding: 100px;
+	text-align: center;
+}
+
+/* GALLERY */
+
+.wrapper {
+    width: 100%;
+    margin: 1.5em auto;
+    padding-bottom: 20px;
+}
+
+.gallery {
+    column-count: 4;
+}
+
+.item {
+    display: inline-block;
+    background: #E9E9E9;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* LIGHTBOX */
+
+.lightbox-target {
+position: fixed;
+top: 100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+opacity: 0;
+overflow: hidden;
+}
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+padding-bottom: 70px;
+padding-top: 20px;
+max-height: 0%;
+max-width: 0%;
+box-sizing: border-box;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: 5px;
+right: 35px;
+}
+
+/* X */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 2px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* X */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 2px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+left: 0;
+right: 0;
+bottom: 20px;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
