@@ -4,6 +4,9 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+body {
+}
+
 /* SLOGAN */
 
 #graphic {
@@ -20,21 +23,26 @@ html {
 	font-weight: 300;
 	font-size: 15px;
 }
-	
+
 
 /* LOGO */
+
 
 #lt img {
 	display: block;
     margin: auto;
     height: 5%;
-    margin-top: 3em;
+    margin-top: 5em;
 } 
 
 /* HEADER */
 
 #header {
 	text-align: center;
+	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 #header ul {
@@ -62,6 +70,10 @@ a:link {
 	color: black;
 }
 
+a:hover { 
+	color: #34D1BF;
+}
+
 /* HOME PAGE */
 
 #intro {
@@ -81,10 +93,9 @@ a:link {
 /* ABOUT ME */
 
 #about-container{
-	padding: 100px;
+	padding: 130px;
 	text-align: center;
-	margin: auto;
-
+	margin: auto;	
 }
 
 #about-container img{
@@ -98,16 +109,17 @@ a:link {
 
 }
 .img-circle{
-	padding: 20px;
+	padding: 50px;
+	max-width: 250px;
+    max-height: 250px;
 }
 
 #me p {
-
 	line-height: 30px;
 	text-align: left;
 	font-weight: 300;
-	min-width: 300px;
-	max-width: 800px;
+	min-width: 250px;
+	max-width: 600px;
 	min-height: 300px;
 	margin: auto ;	
 }
@@ -120,8 +132,7 @@ a:link {
 }
 
 #contactbox{
-	padding: 20px;
-	padding-bottom: 50px;
+	padding: 20px;s
 }
 
 #contactbox a{
@@ -159,7 +170,7 @@ a {
 }
 
 .gallery {
-    column-count: 4;
+    column-count: 3;
 }
 
 .item {
