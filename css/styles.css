@@ -1,94 +1,200 @@
-a {
-	color: #373737;
-	text-decoration: none;
-	list-style-type: none;
+/* WEBSITE */
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #aaa;
+  height: 300px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
 }
 
-a:hover { 
-    	color: #fa8072;
+.title {
+  position: absolute;
+  top: 60%;
+  left: 100px;
+}
+html {
+	font-family: 'Roboto', sans-serif;
 }
 
-header {
+body {
+}
+
+/* SLOGAN */
+
+#graphic {
 	text-align: center;
-	margin: 10px 350px;
-	padding: 35px;
-	font-size: 16px;
-	font-family: 'Roboto';
-	font-weight: 500;
+	border: 1px solid black;
+	padding: 3px;
+	margin-top: 30px;
+	margin-left: 45.8em;
+	width: 200px;
+	margin: 0 auto;
+
 }
 
-body{
-	background: #F5F5F5;
-	text-align: center; 
-	font-family: 'Roboto';
+#graphic p {
+	font-weight: 300;
+	font-size: 15px;
 }
 
-h1 {
+#background{
+	width: 100%;
+}
+
+
+/* LOGO */
+
+
+#lt img {
+	display: block;
+    margin: auto;
+    height: 5%;
+    margin-top: 5em;
+} 
+
+/* HEADER */
+
+#header {
 	text-align: center;
-	padding: 2em;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#header li {
+    display: inline;
 }
 
 li {
-	list-style-type: none;
-	position: absolute;	
+	padding: 55px;
+	font-weight: 700;
 }
 
-p {
-	text-align: center;
-	font-size: 16px;
-	font-weight: 300;
+a:visited {
+	color: black;
 }
 
-#head1{
-	text-align: center;
+a:link {
+	color: black;
 }
 
-#welcome {
-	position: absolute;
-	top: 80%;
-	right: 15%;
-	width: 70%;	
+a:hover { 
+	color: #34D1BF;
 }
 
-#labs{
-	text-align: center;	
-}
-#logo {
-	position: absolute;
-	top: 2%;
-	right: 90%;
-	width: 3%;
-}
-
-#logoindex {
-	position: absolute;
-	top: 20%;
-	right: 40%;
-	width: 20%;
-}
+/* HOME PAGE */
 
 #intro {
-	position: absolute;
-	top: 40%;
-	right: 15%;
-	width: 70%;
+    background-image: url("lorem.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ABOUT ME */
+
+#about-container{
+	padding: 0 0 0 25% ;
+	text-align: center;
+	margin: auto;	
+}
+
+
+#about-container img{
+	float: left;
+	margin-right: 10px;
+	clear:both;
+	min-width: 250px;
+	text-align: center;
+	width: 20%;
+
+}
+
+.img-circle{
+	padding: 50px;
+	max-width: 250px;
+    max-height: 250px;
+}
+
+#me{
+	padding-top: 50px;
+}
+#me p {
+
+	overflow: auto;
+	display:block;
+	min-height: 300px;
+	min-width: 150px;
+	max-width: 600px;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 30px;
+
+}
+
+
+
+#me h1 {
+	line-height: 15px;
+	font-weight: normal;
+}
+#contactbox{
+	
+}
+
+#contactbox a{
+	color: white;
+	background-color: #FE5F55;
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+	
+#img-circle {
+    border-radius: 50%;
+}
+
+/* PROJECTS */
+
+#work h1 {
+	font-weight: normal;
+}
+
+#work {
+	background-color: #F7F7F7;
+	padding: 100px;
 	text-align: center;
 }
+
+/* GALLERY */
 
 .wrapper {
     width: 100%;
     margin: 1.5em auto;
-    padding-bottom: 20px;
+
 }
 
 .gallery {
-    column-count: 4;
-}
-
-img{
-  max-width: 100%;
-  height: auto;
-  display: block;
+    column-count: 3;
 }
 
 .item {
@@ -101,7 +207,98 @@ img{
     border-radius: 3px;
 }
 
-h1 {
-	text-align: center;
-	margin-top: -90px;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* LIGHTBOX */
+
+.lightbox-target {
+position: fixed;
+top: 100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+opacity: 0;
+overflow: hidden;
+}
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+padding-bottom: 70px;
+padding-top: 20px;
+max-height: 0%;
+max-width: 0%;
+box-sizing: border-box;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: 5px;
+right: 35px;
+}
+
+/* X */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 2px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* X */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 2px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+left: 0;
+right: 0;
+bottom: 20px;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+
 }
