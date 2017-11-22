@@ -111,7 +111,7 @@ a:hover {
 /* ABOUT ME */
 
 #about-container{
-	padding: 0 0 0 25% ;
+	padding: 0 0 0 20% ;
 	text-align: center;
 	margin: auto;	
 }
@@ -134,30 +134,25 @@ a:hover {
 }
 
 #me{
-	padding-top: 50px;
+	padding-top: 200px;
 }
 #me p {
 
 	overflow: auto;
 	display:block;
-	min-height: 300px;
+	min-height: 250px;
 	min-width: 150px;
 	max-width: 600px;
 	text-align: left;
 	padding-left: 20px;
 	line-height: 30px;
-	font-weight: 300;
-
 }
-
-
 
 #me h1 {
 	line-height: 15px;
 	font-weight: normal;
 }
 #contactbox{
-	
 }
 
 #contactbox a{
