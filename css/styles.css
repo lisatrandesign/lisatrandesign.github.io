@@ -44,6 +44,7 @@ body {
 	display: block;
     margin: auto;
     height: 5%;
+	width: auto;
     margin-top: 5em;
 } 
 
@@ -89,7 +90,6 @@ a:hover {
 /* HOME PAGE */
 
 #intro {
-    background-image: url("lorem.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -231,6 +231,35 @@ img {
 .lightbox:target {
 	outline: none;
 	display: block;
+}
+
+/* RESPONSIVENESS */
+
+/* small screens */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	
+	#background{display:none;}
+	#header { display: none; } 
+  
+  .gallery {
+	      column-count: 1;
+	}
+
+	#work{
+		padding: 0;
+		text-align: left;
+		/* WIP */
+	}
+
+	.description{
+		display:none;	/* Hide popup image in smaller screens */
+	}
+}
+
+
+/* large screens */
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+	#header { display: block; }  
 }
 
 
