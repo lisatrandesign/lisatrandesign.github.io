@@ -204,10 +204,6 @@ img {
   height: auto;
 }
 
-h1 { 
-	text-align: center;
-}
-
 /* LIGHTBOX */
 .gallery a{
 	color:white;
@@ -257,6 +253,10 @@ h1 {
 
 	.description{
 		display:none;	/* Hide popup image in smaller screens */
+	}
+	
+	h1 { 
+	text-align: center;
 	}
 }
 
