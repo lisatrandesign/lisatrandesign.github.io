@@ -262,33 +262,6 @@ img {
 
 }
 
-@media only screen 
-and (min-device-width : 375px) and (max-device-width : 667px) { 
-	#background{display:none;}
-	#header { display: none; } 
-  
-  .gallery {
-	      column-count: 1;
-	}
-
-	#work{
-		padding: 0;
-		text-align: center;
-		/* WIP */
-	}
-
-	.description{
-		display:none;	/* Hide popup image in smaller screens */
-	}
-	
-	h1 { 
-	text-align: center;
-	}
-	
-	#about-container{
-	padding-bottom: 150px;
-	} 
-}
 
 /* large screens */
 @media screen and (min-width: 401px) and (max-width: 1024px) {
