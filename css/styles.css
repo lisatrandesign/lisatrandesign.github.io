@@ -292,6 +292,6 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 
 
 /* large screens */
-@media screen and (min-width: 401px) and (max-width: 1024px) {
+@media screen and (min-width: 376px) and (max-width: 1024px) {
 	#header { display: block; }  
 }
