@@ -22,9 +22,6 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-body {
-}
-
 /* SLOGAN */
 
 #graphic p {
@@ -290,8 +287,19 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	} 
 }
 
+/* medium/tablet screens */
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+	#background{display: block;}
+	#header { display: block; }  
+	
+	.gallery {
+		column-count: 2;
+	}
+	
+}
+
 
 /* large screens */
-@media screen and (min-width: 667px) and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1281px) {
 	#header { display: block; }  
 }
