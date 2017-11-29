@@ -233,7 +233,36 @@ img {
 /* RESPONSIVENESS */
 
 /* small screens */
+@media screen and (min-width: 0px) and (max-width: 750px) {
+	
+	#background{display:none;}
+	#header { display: none; } 
+  
+  .gallery {
+	      column-count: 1;
+	}
 
+	#work{
+		padding: 0;
+		text-align: center;
+		/* WIP */
+	}
+
+	.description{
+		display:none;	/* Hide popup image in smaller screens */
+	}
+	
+	h1 { 
+	text-align: center;
+	}
+	
+	#about-container{
+	padding-bottom: 150px;
+	}
+
+}
+
+/* small screens */
 @media only screen 
 and (min-device-width : 375px) and (max-device-width : 667px) { 
 	#background{display:none;}
@@ -260,6 +289,17 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	#about-container{
 	padding-bottom: 150px;
 	} 
+}
+
+/* tablet screens */
+@media only screen 
+  and (min-device-width: 768px) and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	#header { display: block; }
+  	
+  	.gallery {
+  		column-count: 3;
+  	}
 }
 
 /* large screens */
