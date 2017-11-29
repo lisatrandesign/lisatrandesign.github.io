@@ -271,8 +271,10 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	}
 	
 	#about-container{
-	padding-bottom: 150px;
+	column-count:1;
+	text-align: center;
 	} 
+
 }
 
 /* medium/tablet screens */
@@ -287,6 +289,11 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	.description{
 		display:inline;
 	}
+	
+	#about-container{
+	column-count:1;
+	text-align: center;
+	} 
 }
 
 
