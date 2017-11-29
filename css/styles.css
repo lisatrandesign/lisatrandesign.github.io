@@ -266,7 +266,8 @@ img {
 @media only screen 
 and (min-device-width : 375px) and (max-device-width : 667px) { 
 	#background{display:none;}
-	#header { display: none; } 
+	#header { display: none; }
+	#header {visibility: hidden;} 
   
   .gallery {
 	      column-count: 1;
@@ -275,7 +276,6 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	#work{
 		padding: 0;
 		text-align: center;
-		/* WIP */
 	}
 
 	.description{
@@ -291,16 +291,6 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	} 
 }
 
-/* tablet screens */
-@media only screen 
-  and (min-device-width: 768px) and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-  	#header { display: block; }
-  	
-  	.gallery {
-  		column-count: 3;
-  	}
-}
 
 /* large screens */
 @media screen and (min-width: 401px) and (max-width: 1024px) {
