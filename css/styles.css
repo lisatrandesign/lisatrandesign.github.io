@@ -236,7 +236,7 @@ img {
 /* RESPONSIVENESS */
 
 /* small screens */
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 667px) {
 	
 	#background{display:none;}
 	#header { display: none; } 
