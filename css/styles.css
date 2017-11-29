@@ -22,18 +22,6 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-/* SLOGAN */
-
-#graphic p {
-	font-weight: 300;
-	font-size: 15px;
-}
-
-#background{
-	width: 100%;
-}
-
-
 /* LOGO */
 
 
@@ -229,8 +217,6 @@ img {
 
 /* RESPONSIVENESS */
 
-/* RESPONSIVENESS */
-
 /* small screens */
 @media screen and (min-width: 0px) and (max-width: 750px) {
 	
@@ -277,7 +263,7 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 	}
 
 	.description{
-		display:none;	/* Hide popup image in smaller screens */
+		display:none;	/* Hides popup image in smaller screens */
 	}
 	
 	h1 { 
