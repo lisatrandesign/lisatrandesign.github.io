@@ -184,7 +184,7 @@ a {
 
 .gallery {
     column-count: 4;
-	display: block;		/* change to inline in smaller resolutions */
+	display: block;	
 }
 
 .item {
@@ -245,7 +245,6 @@ img {
 	#work{
 		padding: 0;
 		text-align: center;
-		/* WIP */
 	}
 
 	.description{
