@@ -22,6 +22,21 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+body {
+}
+
+/* SLOGAN */
+
+#graphic p {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#background{
+	width: 100%;
+}
+
+
 /* LOGO */
 
 
@@ -35,7 +50,25 @@ html {
 
 /* HEADER */
 
+#header {
+	text-align: center;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#header li {
+    display: inline;
+}
 
 li {
 	padding: 55px;
@@ -200,34 +233,6 @@ img {
 /* RESPONSIVENESS */
 
 /* small screens */
-@media screen and (min-width: 0px) and (max-width: 750px) {
-	
-	#background{display:none;}
-	#header { display: none; } 
-  
-  .gallery {
-	      column-count: 1;
-	}
-
-	#work{
-		padding: 0;
-		text-align: center;
-		/* WIP */
-	}
-
-	.description{
-		display:none;	/* Hide popup image in smaller screens */
-	}
-	
-	h1 { 
-	text-align: center;
-	}
-	
-	#about-container{
-	padding-bottom: 150px;
-	}
-
-}
 
 @media only screen 
 and (min-device-width : 375px) and (max-device-width : 667px) { 
@@ -260,24 +265,4 @@ and (min-device-width : 375px) and (max-device-width : 667px) {
 /* large screens */
 @media screen and (min-width: 401px) and (max-width: 1024px) {
 	#header { display: block; }  
-	
-	#header {
-	text-align: center;
-	overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-#header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
-    background-color: #FFFFFF;
-}
-
-#header li {
-    display: inline;
-}
 }
