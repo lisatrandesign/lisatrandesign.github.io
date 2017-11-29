@@ -1,268 +1,169 @@
-/* WEBSITE */
-.top {
-  margin: 0;
-  position: relative;
-  width: 100%;
-  background-color: #aaa;
-  height: 300px;
-  opacity: 1;
-  text-align: center;
-  font-family: 'helvetica';
-  font-size: 80px;
-  font-weight: 100;
-  color: #fff;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.title {
-  position: absolute;
-  top: 60%;
-  left: 100px;
-}
-html {
-	font-family: 'Roboto', sans-serif;
-}
+<head>
+	<title>Lisa Tran</title> 
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<style type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</style>
 
-body {
-}
+</head>
 
-/* SLOGAN */
+<body>
 
-#graphic p {
-	font-weight: 300;
-	font-size: 15px;
-}
-
-#background{
-	width: 100%;
-}
-
-
-/* LOGO */
-
-
-#lt img {
-	display: block;
-    margin: auto;
-    height: 5%;
-	width: auto;
-    margin-top: 5em;
-} 
-
-/* HEADER */
-
-#header {
-	text-align: center;
-	overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-#header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
-    background-color: #FFFFFF;
-}
-
-#header li {
-    display: inline;
-}
-
-li {
-	padding: 55px;
-	font-weight: 700;
-}
-
-a:visited {
-	color: black;
-}
-
-a:link {
-	color: black;
-}
-
-a:hover { 
-	color: #34D1BF;
-}
-
-/* HOME PAGE */
-
-#intro {
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* ABOUT ME */
-
-#about-container{
-	padding: 0 0 0 20% ;
-	text-align: center;
-	margin: auto;	
-}
-
-
-#about-container img{
-	float: left;
-	margin-right: 10px;
-	clear:both;
-	min-width: 250px;
-	text-align: center;
-	width: 20%;
-
-}
-
-.img-circle{
-	padding: 50px;
-	max-width: 250px;
-    max-height: 250px;
-}
-
-#me{
-	padding-top: 150px;
-	padding-bottom: 120px;
-}
-#me p {
-	overflow: auto;
-	display:block;
-	min-height: 300px;
-	min-width: 150px;
-	max-width: 600px;
-	text-align: left;
-	padding-left: 20px;
-	line-height: 30px;
-	font-weight: 300;
-}
-
-#me h1 {
-	line-height: 15px;
-	font-weight: normal;
-}
-
-#contactbox{
-	padding-bottom: 50px;
+	<div id="header">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#me">About Me</a></li>
+  <li><a href="#work">Projects</a></li>
+</ul>
+</div>
 	
-}
 
-#contactbox a{
-	color: white;
-	background-color: #FE5F55;
-	padding: 15px;
-}
 
-a {
-	text-decoration: none;
-}
-	
-#img-circle {
-    border-radius: 50%;
-}
+<section id="intro">
 
-/* PROJECTS */
+<div id="lt">
+	<img src="images/logo.jpg" alt="logo" />
+</div>
 
-#work h1 {
-	font-weight: normal;
-}
+<br>
 
-#work {
-	background-color: #F7F7F7;
-	padding: 100px;
-	text-align: center;
-}
+<img src="images/lorem.jpg" id="background" alt="Home Page">
+</section>
 
-/* GALLERY */
 
-.wrapper {
-    width: 100%;
-    margin: 1.5em auto;
+<div class="panel">
+<section id="me">
+<div id="about-container">
+	 	<img id="img-circle" src="images/profile.jpg" alt="Lisa Tran">
+	 	<p>
+			  Hey, I'm Lisa! I'm an aspiring Graphic Designer from Vancouver Island. I love Graphic Design because of the creative process and how it can communicate to the audience. 
+			  I transitioned from a baker to a designer in 2015 and will be graduating in 2019 with a Bachelor's in Graphic Design. 
+			  I'm mostly interested in package design, UI design, and branding. I enjoy food (too much tbh), travelling/sightseeing, and naps. 
+			  <br><br>
+			  For any business inquiries, please send me a message!</p>
+			 <div id="contactbox">
+				<a href="mailto:contactlisatran@gmail.com" target="_top">Contact Me</a>
+			</div>
+</div>
+</section>
+</div>
 
-}
 
-.gallery {
-    column-count: 4;
-	display: block;		/* change to inline in smaller resolutions */
-}
+<section id="work">
+<h1> Projects </h1>
 
-.item {
-    display: inline-block;
-    background: #F7F7F7;
-    padding: 1em;
-    margin: 0 0 1.5em;
-    width: 100%;
-    box-sizing: border-box;
-}
+<!--PHOTO GALLERY-->
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+<div class="wrapper">
+	<div class="gallery">
+  			<div class="item">
+				<a href="#tshirt">
+					<img src="images/tshirt.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="tshirt">
+				<img class = "description" src="images/tshirt.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			
+			  			<div class="item">
+				<a href="#totebag">
+					<img src="images/totebag.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="totebag">
+				<img class = "description"  src="images/totebag.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+  			<div class="item">
+				<a href="#fall">
+					<img src="images/fall.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="fall">
+				<img class = "description"  src="images/fall.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+  			
+  			<div class="item">
+				<a href="#photoshop">
+					<img src="images/photoshop.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="photoshop">
+				<img class = "description"  src="images/photoshop.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+  			
+			<div class="item">
+				<a href="#flower">
+					<img src="images/flower.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="flower">
+				<img class = "description"  src="images/flower.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			
+		
+			<div class="item">
+				<a href="#staycool">
+					<img src="images/staycool.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="staycool">
+				<img class = "description"  src="images/staycool.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			<div class="item">
+				<a href="#la">
+					<img src="images/la.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="la">
+				<img class = "description" src="images/la.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			<div class="item">
+				<a href="#orange">
+					<img src="images/orange.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="orange">
+				<img class = "description"  src="images/orange.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			
+			<div class="item">
+			<a href="#snackage">
+					<img src="images/snackage.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="snackage">
+				<img class = "description"  src="images/snackage.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+				</a>
+  			</div>
+			
+			<div class="item">
+			<a href="#getty">
+					<img src="images/getty.jpg">
+				</a>
+				<a href="#_" class="lightbox" id="getty">
+				<img class = "description"  src="images/getty.jpg">
+				<p>This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. This is an example description. </p>
+			</a>
+  			</div>
+  			
+		</div>
+	</div>
 
-/* LIGHTBOX */
-.gallery a{
-	color:white;
-}
+</section>
 
-.lightbox {
-	display: none;
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-}
 
-.lightbox img {
-	max-width: 90%;
-	max-height: 80%;
-	margin-top: 2%;
-	min-width: 150px;
-}
+</body>
 
-.lightbox:target {
-	outline: none;
-	display: block;
-}
-
-/* RESPONSIVENESS */
-
-/* small screens */
-@media screen and (min-width: 0px) and (max-width: 750px) {
-	
-	#background{display:none;}
-	#header { display: none; } 
-  
-  .gallery {
-	      column-count: 1;
-	}
-
-	#work{
-		padding: 0;
-		text-align: center;
-		/* WIP */
-	}
-
-	.description{
-		display:none;	/* Hide popup image in smaller screens */
-	}
-	
-	h1 { 
-	text-align: center;
-	}
-	
-	#about-container{
-	padding-bottom: 150px;
-	}
-
-}
-
-/* large screens */
-@media screen and (min-width: 401px) and (max-width: 1024px) {
-	#header { display: block; }  
-}
+</html>
