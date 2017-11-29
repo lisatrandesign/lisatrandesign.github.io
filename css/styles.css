@@ -233,7 +233,7 @@ img {
 /* RESPONSIVENESS */
 
 /* small screens */
-@media screen and (min-width: 0px) and (max-width: 667px) {
+@media screen and (min-width: 0px) and (max-width: 750px) {
 	
 	#background{display:none;}
 	#header { display: none; } 
