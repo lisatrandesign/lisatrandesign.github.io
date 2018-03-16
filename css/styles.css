@@ -110,7 +110,9 @@ a:hover {
 #me{
 	padding-top: 150px;
 	padding-bottom: 120px;
+	background-color: #E6E6EA;
 }
+
 #me p {
 	overflow: auto;
 	display:block;
