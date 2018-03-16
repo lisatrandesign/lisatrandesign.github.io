@@ -69,7 +69,7 @@ a:link {
 }
 
 a:hover { 
-	color: #34D1BF;
+	color: #C4E1E6;
 }
 
 /* HOME PAGE */
@@ -87,8 +87,7 @@ a:hover {
 #about-container{
 	padding: 30% 0 0 20% ;
 	text-align: center;
-	margin: auto;
-	background-color: #F4F4F8;	
+	margin: auto;	
 }
 
 
