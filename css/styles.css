@@ -87,7 +87,8 @@ a:hover {
 #about-container{
 	padding: 30% 0 0 20% ;
 	text-align: center;
-	margin: auto;	
+	margin: auto;
+	background-color: #F4F4F8;	
 }
 
 
@@ -110,7 +111,6 @@ a:hover {
 #me{
 	padding-top: 150px;
 	padding-bottom: 120px;
-	background-color: #E6E6EA;
 }
 
 #me p {
