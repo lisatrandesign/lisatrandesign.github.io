@@ -87,6 +87,15 @@ ol {
 /*------------------------
   Common Elements
 --------------------------*/
+.logoimg{
+	 width: 150px;
+     position: absolute;
+	 left:25px;
+	 top:15px;
+	 padding:15px;
+	 z-index: 1;
+}
+
 .element {
   margin-bottom: 100px;
 }
