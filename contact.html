@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,10 +23,10 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- header section start -->
 		<div class="container">
-		<img src="img/portfolio/ltlogo.png" style="position: absolute;left:25px;top:15px;padding:15px;" width="150px"></img>
+		<a href="index.html" ><img class="logoimg" src="img/portfolio/ltlogo.png"></a>
 	<header class="header-section">
 			<div class="row">
 				<div class="col-lg-4 col-md-3">
@@ -72,25 +71,10 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat sollicitudin, blandit quam vitae.</p>
 				</div>
 			</div>
-			<form class="contact-form">
-				<div class="row">
-					<div class="col-md-6">
-						<input type="text" placeholder="Name">
-					</div>
-					<div class="col-md-6">
-						<input type="text" placeholder="E-mail">
-					</div>
-					<div class="col-md-12">
-						<input type="text" placeholder="Subject">
-					</div>
-					<div class="col-md-12">
-						<textarea placeholder="Message"></textarea>
-					</div>
-				</div>
 				<div class="text-center">
-					<button class="site-btn">Send</button>
+					<button class="site-btn" onclick="copyToClipboard('contactlisatran@gmail.com')">contactLisaTran@gmail.com</button>
+					<p id="message"></p>
 				</div>
-			</form>
 		</div>
 	</section>
 	<!-- page section end -->
@@ -110,6 +94,19 @@
 	<script src="js/mixitup.min.js" type="de51a7e8654fc294b91b8ab4-text/javascript"></script>
 	<script src="js/magnific-popup.min.js" type="de51a7e8654fc294b91b8ab4-text/javascript"></script>
 	<script src="js/main.js" type="de51a7e8654fc294b91b8ab4-text/javascript"></script>
+	<script>
+		function copyToClipboard(text){
+			let dummy = document.createElement("input");
+			document.body.appendChild(dummy);
+			dummy.setAttribute('value', text);
+			dummy.select();
+			document.execCommand("copy");
+			document.body.removeChild(dummy);
+			document.getElementById("message").innerHTML = "Copied to clipboard!";
+			$('#message').fadeIn('fast').delay(1000).fadeOut('slow');
+
+		}
+	</script>
 
 
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="de51a7e8654fc294b91b8ab4-|49" defer=""></script></body>
